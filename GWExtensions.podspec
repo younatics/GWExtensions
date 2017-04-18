@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GWExtensions'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'GWExtensions'
   s.description      = 'Extensions of iOS Delvelop with XCode using Swift3.0'
   s.homepage         = 'https://github.com/oper0960/GWExtensions'
