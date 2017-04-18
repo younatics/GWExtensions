@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'GWExtensions'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GWExtensions.'
-  s.description      = 'Extensions'
+  s.summary          = 'GWExtensions'
+  s.description      = 'Extensions of iOS Delvelop with XCode'
   s.homepage         = 'https://github.com/oper0960/GWExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
