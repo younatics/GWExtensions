@@ -491,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D62FBBC177092EF748B1E5469CC1817 /* GWExtensions.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -601,6 +602,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D62FBBC177092EF748B1E5469CC1817 /* GWExtensions.xcconfig */;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

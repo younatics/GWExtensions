@@ -6,7 +6,7 @@
 //
 //
 
-extension UIFont {
+public extension UIFont {
     
     public enum TextStyle {
         case SystemBold

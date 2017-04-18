@@ -6,7 +6,7 @@
 //
 //
 
-extension UIDevice {
+public extension UIDevice {
     
     // 디바이스 uuid
     public class func getUuid() -> String? {

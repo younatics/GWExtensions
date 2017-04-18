@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension UIView
+public extension UIView
 {
     public class func copyView() -> AnyObject {
         return NSKeyedUnarchiver.unarchiveObject(with: NSKeyedArchiver.archivedData(withRootObject: self))! as AnyObject

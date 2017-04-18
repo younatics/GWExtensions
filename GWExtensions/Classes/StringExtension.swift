@@ -8,7 +8,7 @@
 
 import UIKit
 
-extension String {
+public extension String {
     
     // 문자열 공백 삭제
     public func stringTrim(string: String) -> String {
