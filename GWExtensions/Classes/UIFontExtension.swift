@@ -30,13 +30,16 @@ public extension UIFont {
         case .SystemRegular:
             return UIFont.systemFont(ofSize: fontsize)
         case .HelveticaBold:
-            return UIFont(name: "HelveticaNeue-Bold", size: fontsize)!
+            guard let font = UIFont(name: "HelveticaNeue-Bold", size: fontsize) else { return UIFont() }
+            return font
         case .HelveticaRegular:
-            return UIFont(name: "HelveticaNeue-Regular", size: fontsize)!
+            guard let font = UIFont(name: "HelveticaNeue-Regular", size: fontsize) else { return UIFont() }
+            return font
         case .HelveticaLight:
-            return UIFont(name: "HelveticaNeue-Light", size: fontsize)!
+            guard let font = UIFont(name: "HelveticaNeue-BolLightd", size: fontsize) else { return UIFont() }
+            return font
         case .HelveticaMedium:
-            return UIFont(name: "HelveticaNeue-Medium", size: fontsize)!
-        }
+            guard let font = UIFont(name: "HelveticaNeue-Medium", size: fontsize) else { return UIFont() }
+            return font        }
     }
 }
