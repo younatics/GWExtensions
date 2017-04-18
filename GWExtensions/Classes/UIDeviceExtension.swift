@@ -6,6 +6,8 @@
 //
 //
 
+import UIKit
+
 public extension UIDevice {
     
     // 디바이스 uuid

@@ -11,7 +11,7 @@ import UIKit
 public extension String {
     
     // 문자열 공백 삭제
-    public func stringTrim(string: String) -> String {
-        return string.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
+    public var stringTrim: String{
+       return self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
 }

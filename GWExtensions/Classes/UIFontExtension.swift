@@ -6,6 +6,8 @@
 //
 //
 
+import UIKit
+
 public extension UIFont {
     
     public enum TextStyle {

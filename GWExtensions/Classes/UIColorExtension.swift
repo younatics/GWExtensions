@@ -6,6 +6,8 @@
 //
 //
 
+import UIKit
+
 public extension UIColor {
     // View 색상을 한가지로 통일
     public func setOneColor(_ value: CGFloat, alpha: CGFloat) -> UIColor {
