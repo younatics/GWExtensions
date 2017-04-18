@@ -3,11 +3,11 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of GWExtensions.'
   s.description      = 'Extensions'
-  s.homepage         = 'https://github.com/Ryu/GWExtensions'
+  s.homepage         = 'https://github.com/oper0960/GWExtensions'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Ryu' => 'oper0960@peopleroad.net' }
-  s.source           = { :git => 'https://github.com/Ryu/GWExtensions.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/oper0960/GWExtensions.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
