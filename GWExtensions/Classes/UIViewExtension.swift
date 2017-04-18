@@ -6,9 +6,11 @@
 //
 //
 
+import UIKit
+
 extension UIView
 {
-    public func copyView() -> AnyObject {
+    public class func copyView() -> AnyObject {
         return NSKeyedUnarchiver.unarchiveObject(with: NSKeyedArchiver.archivedData(withRootObject: self))! as AnyObject
     }
     
@@ -18,5 +20,10 @@ extension UIView
     
     public func nextViewOriginX() -> CGFloat {
         return self.frame.origin.x + self.frame.size.width
+    }
+    
+    public func setSquareImage() {
+        self.clipsToBounds = true
+        self.layer.cornerRadius = self.frame.size.width / 2
     }
 }
