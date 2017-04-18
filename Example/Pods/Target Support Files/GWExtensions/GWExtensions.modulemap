@@ -1,0 +1,6 @@
+framework module GWExtensions {
+  umbrella header "GWExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - GWExtensions (0.1.0)
+
+DEPENDENCIES:
+  - GWExtensions (from `../`)
+
+EXTERNAL SOURCES:
+  GWExtensions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GWExtensions: d8413f240974c5af1af69904c7a8d098ebb5218e
+
+PODFILE CHECKSUM: 5217511671b8a63d4bee502f224f1284c1938e6d
+
+COCOAPODS: 1.2.1

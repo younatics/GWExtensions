@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GWExtensions_Example' do
+  pod 'GWExtensions', :path => '../'
+
+  target 'GWExtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

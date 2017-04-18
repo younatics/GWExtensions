@@ -1,0 +1,6 @@
+framework module Pods_GWExtensions_Tests {
+  umbrella header "Pods-GWExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
